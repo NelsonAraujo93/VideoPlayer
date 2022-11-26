@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+section.header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+}
+section.main-content {
+    display: flex;
+    height: calc(100vh - 300px);
+    justify-content: flex-start;
+}
+section.footer {
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+    background: rgb(188, 139, 228);
+    align-items: center;
+}
+.side-bar {
+    display: flex;
+    width: 100px;
+    background: yellow;
+}
+.content-body {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 100px);
+    justify-content: flex-start;
+    align-items: center;
+}
+.social-icon {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.social-media,
+.about-us,
+.contact,
+.faq {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social-icon a {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+.side-menu {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.menu-icon {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.menu-icon img {
+    width: 80px;
+    height: 66px;
+}
+.menu-icon a {
+    height: 66px;
+    width: 80px;
+    cursor: pointer;
+}
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+.video-item {
+    display: flex;
+    width: 560px;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
