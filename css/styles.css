@@ -3,11 +3,11 @@ body {
 }
 
 section.header {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: red;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
 }
 
 section.main-content {
@@ -108,4 +108,7 @@ section.footer {
   height: 400px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;}
+  align-items: center;
+}
+/** ↑
+ * This newline */
