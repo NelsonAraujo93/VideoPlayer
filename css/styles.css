@@ -1,6 +1,7 @@
 body {
-    margin: 0;
+        margin: 0;
 }
+
 section.header {
     height: 100px;
     display: flex;
@@ -8,11 +9,13 @@ section.header {
     align-items: center;
     background: red;
 }
+
 section.main-content {
     display: flex;
     height: calc(100vh - 300px);
     justify-content: flex-start;
 }
+
 section.footer {
     display: flex;
     height: 200px;
@@ -20,11 +23,13 @@ section.footer {
     background: rgb(188, 139, 228);
     align-items: center;
 }
+
 .side-bar {
     display: flex;
     width: 100px;
     background: yellow;
 }
+
 .content-body {
     display: flex;
     flex-direction: column;
@@ -32,11 +37,13 @@ section.footer {
     justify-content: flex-start;
     align-items: center;
 }
+
 .social-icon {
     cursor: pointer;
     width: 30px;
     height: 30px;
 }
+
 .social-media,
 .about-us,
 .contact,
@@ -46,16 +53,19 @@ section.footer {
     justify-content: space-evenly;
     align-items: center;
 }
+
 .social-icon a {
     width: 30px;
     height: 30px;
     cursor: pointer;
 }
+
 .social-icon img {
     width: 30px;
     height: 30px;
     object-fit: contain;
 }
+
 .side-menu {
     display: flex;
     flex: 1 1 0;
@@ -65,19 +75,23 @@ section.footer {
     padding-top: 20px;
     box-sizing: border-box;
 }
+
 .menu-icon {
     margin-bottom: 20px;
     cursor: pointer;
 }
+
 .menu-icon img {
     width: 80px;
     height: 66px;
 }
+
 .menu-icon a {
     height: 66px;
     width: 80px;
     cursor: pointer;
 }
+
 .video-container {
     display: flex;
     flex-wrap: wrap;
@@ -87,6 +101,7 @@ section.footer {
     box-sizing: border-box;
     overflow-y: auto;
 }
+
 .video-item {
     display: flex;
     width: 560px;
